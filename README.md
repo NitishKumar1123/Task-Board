@@ -1,6 +1,8 @@
-## 🧩 Task Board Application
+# 🧩 Task Board Application
+![image](https://github.com/user-attachments/assets/21e5cef1-d517-4e4f-bc82-3779869e85d9)
 ````markdown
-A full-stack **Task Management Board** built with **React**, **FastAPI**. It allows users to view and update tasks across three columns: `To Do`, `In Progress`, and `Done`.
+
+A full-stack **Task Management Board** built with **React**, **FastAPI**, and **SQLite**. It allows users to view and update tasks across three columns: `To Do`, `In Progress`, and `Done`.
 
 ---
 
@@ -20,6 +22,7 @@ A full-stack **Task Management Board** built with **React**, **FastAPI**. It all
 |-------------|--------------------|
 | Frontend    | React + Vite       |
 | Backend     | FastAPI (Python)   |
+| Database    | SQLite (via SQLAlchemy) |
 | HTTP Client | Axios              |
 
 ---
@@ -149,3 +152,5 @@ frontend/
 ## 📝 License
 
 This project is licensed under the Disha AI License.
+
+
