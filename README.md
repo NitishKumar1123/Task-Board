@@ -1,9 +1,3 @@
-Great! Here's a **detailed `README.md`** for your **Task Board** application, suitable for assignments and future deployment. It includes setup, tech stack, features, API routes, and project structure.
-
----
-
-### 📄 `README.md`
-
 ````markdown
 # 🧩 Task Board Application
 
@@ -119,12 +113,19 @@ task-board/
 │   ├── database.py          # DB connection
 │   └── requirements.txt     # Python dependencies
 │
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx          # Main React app
-│   │   ├── components/      # (Optional) Reusable components
-│   │   └── ...
-│   ├── index.html
+frontend/
+├── index.html
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+│   ├── components/
+│   │   ├── TaskBoard.jsx
+│   │   ├── Column.jsx
+│   │   ├── TaskCard.jsx
+│   │   └── TaskModal.jsx
+│   └── api.js
 │   ├── package.json
 │   └── vite.config.js
 ```
@@ -150,10 +151,3 @@ task-board/
 ## 📝 License
 
 This project is licensed under the Disha AI License.
-
-```
-
----
-
-Let me know if you want me to generate this as a file or include images, badges, or additional deployment instructions (like for Render or Vercel).
-```
