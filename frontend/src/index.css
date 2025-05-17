@@ -1,0 +1,13 @@
+/* Simple reset & optional styling */
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.modal-dialog {
+  max-width: 500px;
+}
